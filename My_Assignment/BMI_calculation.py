@@ -17,8 +17,7 @@ def find_BMI(input_data_file, input_info_table, output_directory):
 	j = df_table.columns[0]
 	k = df_table.columns[1]
 	m = df_table.columns[2]
-	#df_json.loc[df_json[i] <= float(df_table[j][1]), k ] = df_table[k][1]
-
+	
 	#df.loc[df['column name'] condition, 'new column name'] = 'value if condition is met'
 	
 	df_json.loc[df_json[i] <=float(df_table[j][1]) , k] = df_table[k][0]
